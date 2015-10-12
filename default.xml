@@ -21,7 +21,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="XoplaxOS/android" revision="xos-1.0" />
+  <project path="android" name="estiko/carbonrev_android" revision="xos-1.0" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" />
