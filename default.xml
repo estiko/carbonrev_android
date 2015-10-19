@@ -496,8 +496,9 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="packages/apps/KernelAdiutor" name="Grarak/KernelAdiutor" revision="master" />
   <project path="packages/apps/XOSWallpapers" name="estiko/android_packages_apps_XOSWallpapers" revision="xos-1.0" />
+  <project path="packages/apps/XOSWiz" name="estiko/xoswiz" revision="xos-1.0" />
+  <project path="packages/apps/ScreenRecorder" name="estiko/ScreenRecorder" remote="github" revision="xos-1.0" />
   <project path="vendor/xoplax" name="XoplaxOS/android_vendor_xoplax" revision="xos-1.0" >
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
