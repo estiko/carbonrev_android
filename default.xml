@@ -413,7 +413,6 @@
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" />
-  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
@@ -498,7 +497,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="packages/apps/XOSWallpapers" name="estiko/android_packages_apps_XOSWallpapers" revision="xos-1.0" />
   <project path="packages/apps/XOSWiz" name="estiko/xoswiz" revision="xos-1.0" />
-  <project path="packages/apps/ScreenRecorder" name="estiko/ScreenRecorder" remote="github" revision="xos-1.0" />
+  <project path="packages/apps/ScreenRecorder" name="estiko/ScreenRecorder" revision="xos-1.0" />
+  <project path="packages/providers/MediaProvider" name="estiko/provider_MediaProvider" revision="xos-1.0" />
+  <project path="packages/apps/OmniSwitch" name="estiko/Omniswitch" revision="xos-1.0" />
+  <project path="frameworks/opt/cards" name="estiko/frameworks_opt_cards" revision="xos-1.0" />
   <project path="vendor/xoplax" name="XoplaxOS/android_vendor_xoplax" revision="xos-1.0" >
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
